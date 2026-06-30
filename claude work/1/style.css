@@ -942,17 +942,3 @@ img {
         gap: 12px;
     }
 }
-
-
-/* Missing sections fix */
-.section{padding:6rem 0}
-.work,.categories{padding:6rem 8vw}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}
-.category,.item{display:block}
-.item{background:#fff;border:1px solid var(--border);border-radius:18px;overflow:hidden;transition:.3s}
-.item:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(0,0,0,.08)}
-.item-image{aspect-ratio:16/10;background:#efefec}
-.item-content{padding:1.5rem}
-.item-meta{display:flex;justify-content:space-between;color:var(--secondary);font-size:.85rem;margin-top:1rem}
-footer{padding:4rem 8vw;border-top:1px solid var(--border);color:var(--secondary)}
-@media(max-width:900px){.grid{grid-template-columns:1fr}}
